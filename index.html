@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+	<title>q w e e d s</title>
+</head>
+<body>
+    
+    <header>
+		
+        <nav>
+        	<div class="logo_ul">
+        		<img src="img/favicon.png" alt="">
+        	</div>
+        	<form  id="form" class="search_user">
+            	<input type="text" placeholder="Search" id="search" class="search">
+        	</form>
+        	<div class="dropdown">
+        		<div class="select">
+        			<span class="selected">Genres</span>
+        			<div class="caret"></div>
+        		</div>
+        		<div class="menu" id="tags"></div>
+        	</div>
+        </nav>
+        
+   	</header>
+    <div id="main_content">
+        <div class="video" id="video">
+            <video autoplay muted loop>
+                <source src="video/johnwick.mp4">
+            </video>
+            <div class="content">
+                <h1 id="title">John Wick: Chapter 4</h1>
+                <p>With the price on his head ever increasing, legendary hit man John Wick takes his fight against the High Table global as he seeks out the most powerful players in the underworld, from New York to Paris to Japan to Berlin.</p>
+                <div class="details">
+                    <h6>A Blockbuster</h6>
+                    <h5 id="gen">Action</h5>
+                    <h4>2023</h4>
+                </div>
+                <div class="btn">
+                    <a href="#" id="book">Book now</a>
+                </div>
+            </div>
+        </div>
+        <main id="main">
+        </main>
+    </div>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
